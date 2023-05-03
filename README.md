@@ -16,7 +16,7 @@ Now, to test network-related stuff within the cluster, it suffices to spawn a sh
 - `bind-utils`: provides `dig` for DNS queries
 - `iputils`: provides `ping` for ICMP ping
 
-Note that the image is based on [Alibaba Cloud Linux](https://www.alibabacloud.com/product/alibaba-cloud-linux-2) which uses package mirrors and repositories only available within Alibaba Cloud, so it can only be built and used inside Alibaba Cloud, e.g. build within an ECS instance and deployed to an ACK cluster.
+Note that the image is based on [Alibaba Cloud Linux](https://www.alibabacloud.com/product/alibaba-cloud-linux-2) which uses package mirrors and repositories only available within Alibaba Cloud, so it can only be built and used inside Alibaba Cloud, e.g. built within an ECS instance and deployed to an ACK cluster.
 
 ## Build
 
